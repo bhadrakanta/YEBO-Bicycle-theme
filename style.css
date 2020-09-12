@@ -1,0 +1,325 @@
+body {
+	width: auto !important;
+	overflow-x: hidden !important;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+/* header area */
+.hearder-section{
+	overflow:hidden;
+	position:relative;
+}
+.hearder-section .logo-section{
+	display:none;
+}
+.hearder-section .main-menu{
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	margin-top: 15px;
+	width:100%;
+	
+}
+.hearder-section ul li{
+	margin: 0 21px;
+}
+.hearder-section ul li a{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#8f8d99;
+	font-weight:400;
+	font-size:14px;
+	letter-spacing: 1.5px;
+}
+.header-image img{
+	width:100%;
+	height: auto;
+}
+
+/* Intro section */
+
+.section{
+	overflow: hidden;
+}
+
+.intro-section{
+	background-color:#F7F7F7;
+	padding: 100px 0;
+}
+.intro-section .icon {
+	width: 50px;
+	height:42px;
+}
+.section h2{
+	color:#5c5d5e;
+	font-weight: 700;
+	font-family:'Lato', sans-serif;
+	font-size: 18px;
+	letter-spacing:3px;
+	line-height:4em;
+}
+.section p{
+	color:#848789;
+	font-size:16px;
+	font-family:'Lato', sans-serif;
+	font-weight: 700;
+	line-height: 1.5em;
+}
+.section .content{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+/* Description section */
+.section-1{
+	background: url('images/vintage-bike.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+.description-section .big{
+	margin:0;
+	padding:0;
+}
+.description-section .big img {
+	width:100%;
+	height:auto;
+}
+.description-section .big .logo-1 {
+	background: url('images/logo1.png')no-repeat center center;
+	width: 113px;
+	height: 118px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -56px;
+	margin-top: -59px;
+	z-index:9999;
+}
+.description-section .small{
+	position:relative;
+	margin:0;
+	padding-top:20px;
+}
+.description-section .small p{
+	color:#848789;
+	font-size:14px;
+	font-family:'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.7em;
+}
+.description-section .thin-sep{
+	height:1px;
+	background-color:#d7d7d7;
+	width: 50px;
+	margin: 0 auto;
+}
+.description-section .small .small-image img{
+	width:100%;
+	height:auto;
+}
+.small-des h2 {
+	color: #5c5d5e;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	letter-spacing: 4px;
+	line-height: 3em;
+}
+.small-des .content{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	color:#848789;
+	font-size:12px;
+	font-family:'Lato', sans-serif;
+	font-weight: 700;
+	line-height: 1.5em;
+	text-align:justify;
+}
+
+.small .small-image{
+	background: url('images/vintage-bike-small.jpg') no-repeat center center;
+	height:200px;
+	width:100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.small-image:before{
+	content:'';
+	height:0;
+	width:0;
+	border-top:12px solid #FFFFFF;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top:0;
+	left: 50%;
+}
+.small-image-black:before{
+	content:'';
+	height:0;
+	width:0;
+	border-top:12px solid #FFFFFF;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top:0;
+	left: 50%;
+}
+.black-seat-img{
+	background: url('images/blackbg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+.small-image-black{
+	background: url('images/blackseat.png') no-repeat center center;
+	height:200px;
+	width:100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.description-section .small-big .big .logo-2 {
+	background: url('images/logo2.png')no-repeat center center;
+	width: 177px;
+	height: 152px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -88px;
+	margin-top: -76px;
+	z-index:9999;
+}
+
+
+/* big small big */
+
+.bsb-1 {
+	background: url('images/bsb1.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+.description-section .big-small-big .big .logo-3 {
+	background: url('images/logo3.png')no-repeat center center;
+	width: 208px;
+	height:67px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -104px;
+	margin-top: -34px;
+	z-index:9999;
+}
+.bsb-2{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.bsb-2 .bsb2-img{
+	background: url('images/bsb2.png') no-repeat center center;
+	height:200px;
+	width:100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.bsb2-img:before {
+	content: '';
+	height: 0;
+	width: 0;
+	border-top: 12px solid #FFFFFF;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+.bsb-3 {
+	background: url('images/bsb3.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+
+
+/* carousel area */
+.twitter-icon{
+	color:#56c7ee;
+	font-size:30px;
+	padding-top: 85px;
+}
+.carousel-item h2 a{
+	font-size:22px;
+	color:#353738;
+	font-weight:700;
+	text-decoration:none;
+}
+.carousel-item h2 span{
+	font-size:20px;
+	color:#a3a5a6;
+}
+.carousel-item .twitter-post{
+	font-size:16px;
+	padding: 0 100px;
+}
+.tindicator-icon {
+	padding-bottom: 50px;
+}
+.indicator ul li{
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	border: 2px solid gray;
+	float:left;
+	margin: 0 5px;
+	cursor:pointer;
+	list-style: none;
+}
+.indicator ul li:hover{
+	background:gray;
+}
+
+
+
+
+
+
+
+
